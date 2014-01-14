@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/radiatemedia/sendible'
   s.license     = 'MIT'
 
-  #dependencies here
-  #s.add_dependency 'great_library', '1.2.3'
+  s.add_dependency 'json', '~> 1.8'
 
-  #s.add_development_dependency 'test_library', '1.2.3'
+  s.add_development_dependency 'minitest', '~> 5.2'
+  s.add_development_dependency 'webmock', '~> 1.16'
 end
