@@ -53,7 +53,7 @@ The sendible gem can be used to generate URIs for any Sendible server resource, 
 
 ```ruby
 sendible = Sendible.new('your_username', 'your_api_key')
-uri = sendible.single_sign_on.get.url #-> "http://sendible.com/api/v1/single-sign-on?application_id=your_application_id&access_token=123456"
+url = sendible.single_sign_on.get.uri.to_s #-> "http://sendible.com/api/v1/single-sign-on?application_id=your_application_id&access_token=123456"
 ```
 
 ##Responses
